@@ -1,0 +1,21 @@
+export default {
+  colors: {
+    activeColor: "dodgerblue",
+    black: "#000",
+    blue: "#0E49B5",
+    blueOverlay: "#1E90FF18",
+    defaultBlue: "dodgerblue",
+    greenGradientOne: "#54E346",
+    grey: "#e1e1e1",
+    greyGradientOne: "#bbb",
+    greyGradientTwo: "#707070",
+    greyGradientThree: "#E4E4E4",
+    lavender: "#dfeefe",
+    primaryStoreColor: "#EBFFED",
+    primaryThemeColor: "",
+    secondaryStoreColor: "#FFEEF3",
+    smokeWhite: "#f1f1f1",
+    tertiaryStoreColor: "#EBEAFF",
+    white: "#fff",
+  },
+};

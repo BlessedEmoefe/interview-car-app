@@ -1,0 +1,68 @@
+import Toyota from '../assets/toyota.jpg';
+import Cadillac from '../assets/cadillac.jpg';
+import Alfa from '../assets/alfa-romeo.jpg';
+import Acura from '../assets/acura.jpg';
+import Nissan from '../assets/nissan.jpg';
+
+import BMW from '../assets/bmw.jpg';
+import Aston from '../assets/aston-martin.png';
+import Bentley from '../assets/bentley.jpg';
+import Chevrolet from '../assets/chevrolet.jpg';
+import Dodge from '../assets/dodge.jpg';
+import Ferari from '../assets/ferari.jpeg';
+import Ford from '../assets/ford.jpg';
+import Honda from '../assets/honda.jpg';
+import hyundi from '../assets/hyundia.jpg';
+import Isuzu from '../assets/isuzu.jpg';
+import Jaguar from '../assets/jaguar.jpg';
+import Jeep from '../assets/jeep.jpg';
+import Kia from '../assets/kia.jpg';
+import Lamboghini from '../assets/lamborghini.jpg';
+import Land from '../assets/land-rover.jpg';
+import Lexus from '../assets/lexus.jpg';
+import Mesarrati from '../assets/meserati.jpeg';
+import Mercedes from '../assets/mercedes.jpg';
+import Porsche from '../assets/porsche.jpg';
+import Susuki from '../assets/suzuki.jpg';
+import Tesla from '../assets/tesla.jpeg';
+import Volkswagen from '../assets/volkswa.jpg';
+import Volvo from '../assets/volvo.jpg';
+import Mitsubishi from '../assets/mitsubushi.jpg';
+import Mazda from '../assets/mazda.jpg';
+import Hummer from '../assets/hummer.jpg';
+import Peugeot from '../assets/peugot.png';
+
+export const carMakeData = [
+  {carMake: 'Acura', image: Acura},
+  {carMake: 'Alfa_Romeo', image: Alfa},
+  {carMake: 'Toyota', image: Toyota},
+  {carMake: 'Cadillac', image: Cadillac},
+  {carMake: 'Nissan', image: Nissan},
+  {carMake: 'BMW', image: BMW},
+  {carMake: 'Aston_Martin', image: Aston},
+  {carMake: 'Bentley', image: Bentley},
+  {carMake: 'Chevrolet', image: Chevrolet},
+  {carMake: 'Dodge', image: Dodge},
+  {carMake: 'Ferari', image: Ferari},
+  {carMake: 'Ford', image: Ford},
+  {carMake: 'Honda', image: Honda},
+  {carMake: 'Hyundai', image: hyundi},
+  {carMake: 'Isuzu', image: Isuzu},
+  {carMake: 'Jaguar', image: Jaguar},
+  {carMake: 'Jeep', image: Jeep},
+  {carMake: 'Kia', image: Kia},
+  {carMake: 'Lamborghini', image: Lamboghini},
+  {carMake: 'Land_Rover', image: Land},
+  {carMake: 'Lexus', image: Lexus},
+  {carMake: 'Maserati', image: Mesarrati},
+  {carMake: 'Mercedez_Benz', image: Mercedes},
+  {carMake: 'Porsche', image: Porsche},
+  {carMake: 'Susuki', image: Susuki},
+  {carMake: 'Tesla', image: Tesla},
+  {carMake: 'Volkswagen', image: Volkswagen},
+  {carMake: 'Volvo', image: Volvo},
+  {carMake: 'Mitsubishi', image: Mitsubishi},
+  {carMake: 'MAZDA', image: Mazda},
+  {carMake: 'Hummer', image: Hummer},
+  {carMake: 'Peugeot', image: Peugeot},
+];
