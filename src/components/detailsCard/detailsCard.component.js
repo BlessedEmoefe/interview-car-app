@@ -23,6 +23,7 @@ export const DetailsCard = ({carMake, carModel, carYear}) => {
         <Wrapper alignItems="flex-start">
           <Title variant="title">Model: {carModel}</Title>
         </Wrapper>
+        <Spacer size="medium" position="top" />
         <Wrapper alignItems="flex-start">
           <SubText variant="body">Make: {carMake}</SubText>
         </Wrapper>

@@ -9,7 +9,7 @@ import {useFetch} from '../../components/hooks/useFetch';
 import {View, Text} from 'react-native';
 import {carMakeData} from '../data';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <SafeArea>
       <PageContainer paddingHorizontal>
@@ -24,7 +24,9 @@ const Home = () => {
               <RestrauntsBranchCard
                 image={item.image}
                 branchName={item.carMake}
-                
+                onPress={() =>
+                  navigation.navigate('CarDetails', {carMake: item.carMake})
+                }
               />
               <Spacer size="large" position="top" />
             </>

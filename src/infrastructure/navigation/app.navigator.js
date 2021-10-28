@@ -1,5 +1,4 @@
 import React, {useMemo, useEffect, useReducer, useContext} from 'react';
-// import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 import Home from '../../screens/home/home.screen';
 import CarDetails from '../../screens/carDetails/carDetails.screen';

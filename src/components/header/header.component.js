@@ -2,6 +2,7 @@ import React from 'react';
 import {Spacer} from '../spacer/spacer.component';
 import {HeaderCover, LeftSide, HeaderText} from './header.styles';
 
+/*this is the subHeader created for the app. Just below the header*/
 export const Header = ({svg, text}) => {
   return (
     <HeaderCover>

@@ -25,9 +25,10 @@ export const RestrauntsBranchCard = ({
   branchName,
   branchAddress,
   rating,
+  onPress
 }) => {
   return (
-    <ContainerWrapper>
+    <ContainerWrapper onPress={onPress}>
       <RestrauntsBranchCardContainer source={image} resizeMode="cover">
         <ImageSection background="transparent" height={130}></ImageSection>
 

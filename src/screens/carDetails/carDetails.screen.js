@@ -9,11 +9,13 @@ import {useFetch} from '../../components/hooks/useFetch';
 import {View, Text} from 'react-native';
 import {carMakeData} from '../data';
 
-const CarDetails = ({carMake}) => {
+const CarDetails = ({route,navigation}) => {
   /*Integration code*/
+  const {carMake} = route.params;
   const {data, error, loading} = useFetch(
     `https://parseapi.back4app.com/classes/Car_Model_List_${carMake}?limit=20`,
   );
+  console.log(carMake)
   if (loading)
     return (
       <View>
@@ -31,15 +33,15 @@ const CarDetails = ({carMake}) => {
   return (
     <SafeArea>
       <PageContainer paddingHorizontal>
-        <Header text="Car Details" />
+        <Header text={`${carMake} Details`}/>
         <Spacer size="large" position="top" />
         <ContentContainer
           showsVerticalScrollIndicator={false}
-          data={carMakeData}
+          data={results}
           key={Math.random()}
           renderItem={({item}) => (
             <>
-              <DetailsCard carMake={"Yes"} carModel={"Yr"} carYear={"urf"} />
+              <DetailsCard carMake={item.Make} carModel={item.Model} carYear={item.Year} />
               <Spacer size="large" position="top" />
             </>
           )}
