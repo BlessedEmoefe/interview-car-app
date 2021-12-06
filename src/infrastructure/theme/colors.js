@@ -1,13 +1,13 @@
-import { DefaultTheme } from "react-native-paper";
+import {DefaultTheme} from 'react-native-paper';
 
 export const colors = {
   //...DefaultTheme.colors,
-  primary: '#171738',
+  primary: '#044c10',
+  secondary: '#357549',
 
   bg: {
-    white: '#FFFFFF',
-    lightOrange: '#FFF9EC',
-    darkOrange: '#FAD1A4',
+    white: '#e3fde7',
+    dark: '#0b3410',
   },
   iconColor: '#7F7F7F',
 

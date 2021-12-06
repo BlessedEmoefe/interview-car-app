@@ -8,3 +8,6 @@ export const PageContainer = styled(Container)`
   flex: 1;
 `;
 export const ContentContainer = styled(FlatListContainer)``;
+export const EmptyContentContainer = styled(Container)`
+  flex: 1;
+`;

@@ -13,7 +13,7 @@ import IconForMinus from 'react-native-vector-icons/AntDesign';
 export const MultiPurposeCardContainer = styled(Container)`
   border-radius: 16;
   overflow: hidden;
-  padding-vertical: 15;
+  padding-vertical: 15px;
   padding-horizontal: 3%;
   background: ${colors.primary};
   margin: 0 auto;

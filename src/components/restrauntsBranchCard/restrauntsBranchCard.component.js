@@ -34,8 +34,8 @@ export const RestrauntsBranchCard = ({
 
         <LinearGradientBackground
           colors={[firstGradientColor, secondGradientColor, thirdGradientColor]}
-          start={{x: 2, y: -0.2}}
-          end={{x: -0.2, y: 1.2}}>
+          start={{x: 2, y: 0.1}}
+          end={{x: 0.1, y: 1.2}}>
           <InfoSection height="auto" paddingVertical={'20px'}>
             <Wrapper paddingHorizontal alignItems="flex-start">
               <NameText variant="title" numberOfLines={1}>
@@ -59,8 +59,8 @@ export const RestrauntsBranchCard = ({
 
 RestrauntsBranchCard.defaultProps = {
   image: Toyota,
-  firstGradientColor: 'rgba(0,0,0,0.8)',
-  secondGradientColor: 'rgba(0,0,0,0.6)',
+  firstGradientColor: 'rgba(0,0,0,0.5)',
+  secondGradientColor: 'rgba(0,0,0,0.5)',
   thirdGradientColor: colors.primary,
   branchName: 'Toyota',
   branchAddress: 'Click to view More',

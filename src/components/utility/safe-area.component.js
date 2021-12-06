@@ -7,7 +7,8 @@ const calculateStatusBarHeight = () =>
 
 export const SafeArea = styled(SafeAreaView)`
   flex: 1;
-  ${({ showStatusBar }) => showStatusBar && calculateStatusBarHeight()};
+  background: ${colors.bg.white};
+  ${({showStatusBar}) => showStatusBar && calculateStatusBarHeight()};
 `;
 
 SafeArea.defaultProps = {
